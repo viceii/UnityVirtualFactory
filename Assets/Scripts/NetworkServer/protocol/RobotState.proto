@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message RobotState {
+    int32 index = 1;
+    int32 state = 2;
+}
